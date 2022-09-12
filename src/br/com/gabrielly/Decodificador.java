@@ -1,8 +1,8 @@
 package br.com.gabrielly;
 
-public class decodificador extends aparelhos{
+public class Decodificador extends Aparelhos{
     
-    public decodificador(){
+    public Decodificador(){
         this.setNome("Decodificador");
     }
    
