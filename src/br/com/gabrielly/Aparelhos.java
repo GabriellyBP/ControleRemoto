@@ -37,14 +37,6 @@ public class Aparelhos {
         this.nome = nome;
     }
 
-    public void setarCanal(int canal) {
-        if (canal <= cMax) {
-            setCanal(canal);
-        } else {
-            System.out.println("Canal escolhido nao existe");
-        }
-    }
-
     public void setLigado(boolean ligado) {
         this.ligado = ligado;
     }
@@ -55,14 +47,5 @@ public class Aparelhos {
 
     public void setCanal(int canal) {
         this.canal = canal;
-    }
-    
-    public void setarVolume(int volume) {
-        if (volume <= vMax) {
-            setVolume(volume);
-        } else {
-            setVolume(100);
-            System.out.println("Volume maior que o máximo permitido, setado o valor máximo");
-        }
     }
 }
